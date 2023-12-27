@@ -1,8 +1,33 @@
-# React + Vite
+# Tooltip Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+The Tooltip component is a React component designed to provide a simple and customizable tooltip experience for your web application. It allows you to attach tooltips to different elements with ease.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To use the Tooltip component in your React application, follow these steps:
+
+1. Install the required dependencies:
+
+   ```bash
+   npm install react
+Copy the `Tooltip.js` file into your project.
+
+Import the Tooltip component in your desired file:
+
+```jsx
+import Tooltip from './path/to/Tooltip';
+Use the Tooltip component in your React application as needed.
+```
+## Usage
+### Tooltip Props
+### position: Specifies the position of the tooltip relative to the child element. Possible values are:
+
+#### "left"
+#### "right"
+#### "top"
+#### "bottom" (default)
+#### text: The text content to be displayed inside the tooltip.
+
+#### children: The child element to which the tooltip is attached.
