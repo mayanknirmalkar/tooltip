@@ -9,8 +9,8 @@ function App() {
     <>
      
       <div className='flex h-screen justify-center items-center'>
-          <Tooltip position={"top"} text={"Hello"}>
-            <button className='bg-black text-white p-2 rounded-md'>Button</button>
+          <Tooltip position={"top"} text={"This is a tooltip"}>
+            <button className='bg-black text-white p-2 rounded-md'>Tooltip</button>
           </Tooltip>
       </div>
      
